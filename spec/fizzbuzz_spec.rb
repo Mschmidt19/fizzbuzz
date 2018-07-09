@@ -35,3 +35,9 @@ describe 'fizzbuzz(30)' do
     expect(fizzbuzz(30)).to eq 'fizzbuzz'
   end
 end
+
+describe 'fizzbuzz(0)' do
+  it 'returns 0 when passed 0' do
+    expect(fizzbuzz(0)).to eq 0
+  end
+end
