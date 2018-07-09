@@ -41,3 +41,21 @@ describe 'fizzbuzz(0)' do
     expect(fizzbuzz(0)).to eq 0
   end
 end
+
+describe 'fizzbuzz(-96)' do
+  it 'returns "fizz" when passed a negative multiple of 3' do
+    expect(fizzbuzz(-96)).to eq 'fizz'
+  end
+end
+
+describe 'fizzbuzz(-350)' do
+  it 'returns "buzz" when passed a negative multiple of 5' do
+    expect(fizzbuzz(-350)).to eq 'buzz'
+  end
+end
+
+describe 'fizzbuzz(-615)' do
+  it 'returns "fizzbuzz" when passed a negative multiple of both 3 and 5' do
+    expect(fizzbuzz(-615)).to eq 'fizzbuzz'
+  end
+end
