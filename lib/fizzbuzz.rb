@@ -11,8 +11,3 @@ def fizzbuzz(number)
     number
   end
 end
-
-
-(1..50).each do |x|
-  puts fizzbuzz(x)
-end
